@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/wallpaper.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.logo {
+    width: 75px;
+    cursor: pointer;
+}
+.nav{
+    width: 85%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+.nav ul li{
+    list-style: none;
+    display: inline-block;
+    color: lightgrey;
+    padding: 0px 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.nav ul li:hover{
+    transform: translateX(-10px) scale(1.2);
+    color: white;
+    transition: .4s;
+    cursor: pointer;
+}
+.nav ul li a{
+    list-style: none;
+    display: inline-block;
+    color: lightgrey;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.text{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+h1{
+    font-size: 70px;
+    color: white;
+    letter-spacing: 1px;
+    margin: 10px 0 40px;
+}
+small{
+    color: white;
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+button{
+    color: white;
+    background: #007ecb;
+    padding: 8px 35px;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #007ecb, 0 0 20px #007ecb, 0 0 50px #007ecb;
+}
+button:hover{
+    box-shadow: 0 0 20px #007ecb, 0 0 50px #007ecb, 0 0 90px #007ecb;
+    transform: scale(1.1);
+    transition: .4s;
+    cursor: pointer;
+}
+.btm-menu{
+    position: absolute;
+    bottom: 50px;
+    left: 8%;
+    color: white;
+    display: flex;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.btm-menu p{
+    margin-right: 40px;
+}
+.btm-menu i{
+    margin-right: 10px;
+}
+.social{
+    position: absolute;
+    right: 8%;
+    bottom: 50px;
+}
+.social ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 25px;
+}
+.social ul li i{
+    width: 20px;
+    height: 20px;
+}
+.social ul li a{
+    color: white;
+    text-align: center;
+    padding: 8px 16px;
+    font-size: 18px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.social ul li a:hover{
+    background-color: #007ecb;
+}
